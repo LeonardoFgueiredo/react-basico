@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+.App {
+  padding: 30px;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #282a36;
+  color: white;
+}
+
+.Novo-comentario {
+  background-color: #44475a;
+  margin: 50px 0;
+
+  border: 3px solid #bd93f9;
+  border-radius: 10px;
+  color: white;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.Novo-comentario input{
+  width: 300px;
+}
+
+.Novo-comentario textarea{
+  width: 300px;
+  height: 150px;
+}
+
+.Novo-comentario input,
+textarea { 
+  color: #44475a;
+  background-color: white;
+  border: 1px solid #bd93f9;
+  border-radius: 5px;
+
+  padding: 10px;
+  margin: 8px 0 8px 0;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+
+}
+
+.Novo-comentario button {
+  background: none;
+  border: 1px solid #bd93f9;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.Novo-comentario button:hover {
+  background-color: #bd93f9;
+}
